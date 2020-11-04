@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,600;1,700;1,800;1,900&display=swap");
+
+
+
+
+body {
+  color: #4f4f4f;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+h1{
+  font-weight: 800;
+}
+
+.header {
+  background-image: url(/img/portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 0;
+}
+
+.menu-superior {
+  text-align: end;
+  font-size: 14px;
+  padding: .5rem 1rem;
+}
+
+.menu-superior .list-inline-item a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.menu-superior .list-inline-item a:hover {
+  border-bottom: 2px solid #faff00;
+  width: 90%;
+}
+a{
+  color: #f4f4f4;
+}
+.menu-superior .far, .menu-superior .fab{
+  font-size: 18px;
+  opacity: 0.7;
+  margin: 0 8px;
+}
+
+.navbar-nav .nav-item a {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.navbar-toggler .fa-bars{
+  color: #ffffff;
+}
+
+.nombre-escuela {
+  color: #ffffff;
+  padding-left: 45px;
+}
+.nombre-escuela h2{
+  margin-bottom: 0;
+  line-height: 15px;
+}
+.nombre-escuela h1{
+  margin-bottom: 0;
+  line-height: 80px;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #faff00;
+  width: 90%;
+}

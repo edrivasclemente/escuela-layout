@@ -18,6 +18,9 @@ h2{
   font-size: 45px;
   font-weight: 600;
 }
+h5{
+  font-weight: 600;
+}
 
 .header {
   background-image: url(/img/portada.jpg);
@@ -102,11 +105,22 @@ a{
   width: 509px;
 }
 
+.bg-gris{
+  background: #e9ecef;
+}
 
+.bg-gris .pcajas h5{
+  text-transform: uppercase;
+  text-align: center;
+}
+.bg-gris .pcajas h2{
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
 
-
-
-
+.bgcarrera {
+  background-color: #faff00;
+}
 
 
 @media (max-width: 576px){

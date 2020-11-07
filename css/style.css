@@ -128,7 +128,6 @@ a{
 }
 
 .bgcarrera .carrera-detail{
-  position: absolute;
   bottom: 20px;
   padding: 0 30px;
 }
@@ -149,6 +148,7 @@ a{
   display: none !important;
 }
 .pcajas .img-carrera{
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 }

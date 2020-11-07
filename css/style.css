@@ -15,7 +15,7 @@ h1{
 }
 
 h2{
-  font-size: 45px;
+
   font-weight: 600;
 }
 h5{
@@ -76,8 +76,9 @@ a{
   line-height: 15px;
 }
 .nombre-escuela h1{
-  margin-bottom: 0;
+  margin-bottom: 20px;
   line-height: 80px;
+  letter-spacing: 3px;
 }
 
 .nav-link:hover {

@@ -129,7 +129,7 @@ a{
 
 .bgcarrera .carrera-detail{
   bottom: 20px;
-  padding: 0 30px;
+  padding: 10px 30px;
 }
 
 .pcajas .img-carrera{
@@ -147,8 +147,10 @@ a{
 .carousel-item img, .img-bienvenido {
   display: none !important;
 }
+.bgcarrera{
+  margin-bottom: 20px;
+}
 .pcajas .img-carrera{
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 }

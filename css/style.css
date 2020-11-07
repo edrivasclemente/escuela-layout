@@ -148,4 +148,7 @@ a{
 .carousel-item img, .img-bienvenido {
   display: none !important;
 }
+.pcajas .img-carrera{
+  padding-bottom: 30px;
+}
 }

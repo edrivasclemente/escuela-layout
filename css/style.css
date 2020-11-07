@@ -127,6 +127,15 @@ a{
   background-color: #faff00;
 }
 
+.bgcarrera .carrera-detail{
+  position: absolute;
+  bottom: 20px;
+  padding: 0 30px;
+}
+
+.pcajas .img-carrera{
+  padding-left: 0;
+}
 
 @media (max-width: 576px){
 .logo-brand {

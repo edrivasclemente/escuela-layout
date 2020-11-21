@@ -91,7 +91,6 @@ a{
   padding-bottom: 80px;
 }
 
-
 .back-bienvenido, .back-mov {
   justify-content: end;
   display: grid;
@@ -135,6 +134,20 @@ a{
 .pcajas .img-carrera{
   padding-left: 0;
 }
+
+.body-carousel{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.carousel-control-prev, .carousel-control-next{
+  width: 100px;
+  color: #000000;
+  font-size: 30px;
+}
+.carousel-control-prev:hover,.carousel-control-next:hover{
+  color: #000000;
+}
+
 
 @media (max-width: 576px){
 .logo-brand {

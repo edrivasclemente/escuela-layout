@@ -166,4 +166,8 @@ a{
 .pcajas .img-carrera{
   margin-bottom: 20px;
 }
+.carousel-control-prev, .carousel-control-next{
+  width: 0px;
+
+}
 }

@@ -155,8 +155,17 @@ a{
   font-weight: 800;
   font-size: 13px;
   letter-spacing: 2px;
-  color: #4f4f4f;
   text-transform: uppercase;
+}
+.footer-detail {
+  font-size: 14px;
+  line-height: 28px;
+}
+.footer-detail a.icon-fa {
+  margin-right: 15px;
+}
+.icon-fa, .link-pucmm {
+  color: #001970;
 }
 
 @media (max-width: 576px){

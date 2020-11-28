@@ -167,6 +167,14 @@ a{
 .icon-fa, .link-pucmm {
   color: #001970;
 }
+.footer-detail i.fab {
+  font-size: 20px;
+}
+.copyright {
+  background-color: #001970;
+  color: #ffffff;
+  text-align: center;
+}
 
 @media (max-width: 576px){
 .logo-brand {

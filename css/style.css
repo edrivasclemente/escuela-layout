@@ -148,6 +148,16 @@ a{
   color: #000000;
 }
 
+.footer-wrapper {
+  background-color: #e9ecef;
+}
+.title-footer {
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #4f4f4f;
+  text-transform: uppercase;
+}
 
 @media (max-width: 576px){
 .logo-brand {

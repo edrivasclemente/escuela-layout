@@ -7,14 +7,10 @@ body {
   font-size: 18px;
 }
 
-h1{
+h1, h2{
   font-weight: 800;
 }
 
-h2{
-
-  font-weight: 600;
-}
 h5{
   font-weight: 600;
 }
@@ -43,7 +39,6 @@ a.btn-outline-yellow {
   text-align: end;
   font-size: 14px;
   font-weight: 600;
-  /* padding: .5rem 1rem; */
 }
 
 .menu-superior .list-inline-item a {

@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,600;1,700;1,800;1,900&display=swap");
 
-
-
-
 body {
   color: #4f4f4f;
   font-family: "Raleway", sans-serif;
@@ -22,6 +19,18 @@ h5{
   font-weight: 600;
 }
 
+
+/*BOTONES*/
+a.btn-outline-yellow {
+  color: #faff00;
+  border-color: #faff00;
+  border-radius: 0;
+  font-size: 13px;
+  padding:12px 10px;
+  font-weight: 600;
+}
+
+
 .header {
   background-image: url(/img/portada.jpg);
   background-repeat: no-repeat;
@@ -33,7 +42,8 @@ h5{
 .menu-superior {
   text-align: end;
   font-size: 14px;
-  padding: .5rem 1rem;
+  font-weight: 600;
+  /* padding: .5rem 1rem; */
 }
 
 .menu-superior .list-inline-item a {
@@ -70,16 +80,17 @@ a{
 .nombre-escuela {
   color: #ffffff;
   padding: 60px 30px;
+  letter-spacing: 3px;
+}
+.nombre-escuela h1{
+  margin-bottom: 20px;
+  line-height: 80px;
 }
 .nombre-escuela h2{
   margin-bottom: 0;
   line-height: 15px;
 }
-.nombre-escuela h1{
-  margin-bottom: 20px;
-  line-height: 80px;
-  letter-spacing: 3px;
-}
+
 
 .nav-link:hover {
   border-bottom: 2px solid #faff00;

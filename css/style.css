@@ -127,10 +127,10 @@ a{
   text-align: center;
   padding-bottom: 1.5rem;
 }
-
+/* 
 .bgcarrera {
   background-color: #faff00;
-}
+} */
 
 .bgcarrera .carrera-detail{
   position: absolute;
@@ -180,7 +180,11 @@ a{
   color: #ffffff;
   text-align: center;
 }
-
+@media (min-width: 575px){
+.bgcarrera {
+    background-color: #faff00;
+}
+}
 @media (max-width: 576px){
 .logo-brand {
     width: 200px;
@@ -195,17 +199,25 @@ a{
 .bgcarrera{
   margin-bottom: 20px;
 }
+.bgcarrera .carrera-detail {
+  position: initial;
+}
 .pcajas .img-carrera{
   margin-bottom: 20px;
 }
-
 .carousel-control-prev, .carousel-control-next{
   width: 0px;
-
 }
 }
 @media (min-width: 768px){
   .pcajas .img-carrera{
     padding-left: 0px;
+}
+}
+@media (max-width: 768px){
+  .bgcarrera .carrera-detail {
+    background-color: #faff00;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 }

@@ -204,7 +204,7 @@ a{
 
 }
 }
-@media (min-width: 992px){
+@media (min-width: 768px){
   .pcajas .img-carrera{
     padding-left: 0px;
 }

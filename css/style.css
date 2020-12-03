@@ -133,13 +133,12 @@ a{
 }
 
 .bgcarrera .carrera-detail{
+  position: absolute;
   bottom: 20px;
   padding: 10px 30px;
 }
 
-.pcajas .img-carrera{
-  padding-left: 0;
-}
+
 
 .body-carousel{
   margin-top: auto;
@@ -199,8 +198,14 @@ a{
 .pcajas .img-carrera{
   margin-bottom: 20px;
 }
+
 .carousel-control-prev, .carousel-control-next{
   width: 0px;
 
+}
+}
+@media (min-width: 992px){
+  .pcajas .img-carrera{
+    padding-left: 0px;
 }
 }
